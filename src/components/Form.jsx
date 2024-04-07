@@ -13,6 +13,7 @@ const Form = () => {
   const [selectedOption,setSelectedOption] = useState(null)
   const [data1,setData1] =useState(null)
   const [data2,setData2] =useState(null)
+  const [data3,setData3] =useState(null)
   const totalPages = 5;
 
   const showPage = () => {
@@ -24,7 +25,7 @@ const Form = () => {
       case 3:
         return <Rightplace setSelectedOption={setSelectedOption} />;
       case 4:
-        return <Math setSelectedOption={setSelectedOption}/>;
+        return <Math setSelectedOption={setSelectedOption} data3={data3} setData3={setData3}/>;
       case 5:
         return <Onway setSelectedOption={setSelectedOption}/>;
       case 6:

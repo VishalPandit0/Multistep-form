@@ -15,12 +15,12 @@ const Interested = ({setSelectedOption,data2,setData2}) => {
   };
 
   return (
-    <div className='flex justify-center w-full sm:w-[40vw] flex-col'>
+    <div className='flex justify-center w-[95%] sm:w-[40vw] flex-col'>
       <header className='text-center my-3' >
         <h1 className='sm:text-3xl text-2xl font-bold my-[1.75rem] '>Which are you most interested in ?</h1>
         <p className='sm:text-[1rem] text-[0.9rem]'>{`Choose just one. This will help us get you started(but won't let experience)`}</p>
       </header>
-      <ul className='my-7 '>
+      <ul className='my-7 ml-[12px]'>
         <li  >
           <div
             className={`flex p-4 rounded-md border-[1px] hover:scale-[1.02] transition-all cursor-pointer ${data2 === 'Learning' ? 'border-yellow-500' : 'border-gray-200'} my-2`}
