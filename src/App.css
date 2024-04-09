@@ -16,6 +16,18 @@
     height: 100px;
     animation: spin 3s linear infinite;
   }
+  .progress-bar-container {
+    width: 70vw;
+    height: 0.25rem;
+    background-color: #eeeeee;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #479678;
+    transition: width 0.5s ease;
+  }
+  
   
   @keyframes spin {
     0% {

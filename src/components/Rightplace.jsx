@@ -12,8 +12,8 @@ const Rightplace = ({setSelectedOption}) => {
         Your browser does not support the video tag.
       </video>
       <div className='sm:w-[32%] w-full ml-6 text-center sm:text-left'>
-        <h1 className='text-3xl mb-3 font-bold '>You're in the right place</h1>
-        <p className='text-left mt-2 '>Brilliant gets you hands-on to help improve your professional skills and knowledge. You'll interact with concepts and solve fun problems in math, science, and computer science.</p>
+        <h1 className='text-3xl mb-3 text-center font-bold '>You're in the right place</h1>
+        <p className='text-center mt-2 '>Brilliant gets you hands-on to help improve your professional skills and knowledge. You'll interact with concepts and solve fun problems in math, science, and computer science.</p>
       </div>
     </div>
   )

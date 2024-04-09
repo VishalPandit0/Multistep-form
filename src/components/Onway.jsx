@@ -10,8 +10,8 @@ const Onway = ({setSelectedOption}) => {
         Your browser does not support the video 
       </video>
       <div className='sm:w-[32%] w-full ml-6 text-center sm:text-left'>
-        <h1 className='text-3xl mb-3 font-bold '>You're on your way</h1>
-        <p className='text-left mt-2 font'>"Through its engaging and well structured courses, Brilliant has taught me mathematical concepts that i previously struggled to understand. I now feel confident approaching both technical job interviews and real world problem solving situations." </p>
+        <h1 className='text-3xl text-center mb-3 font-bold '>You're on your way</h1>
+        <p className='text-center mt-2 font'>"Through its engaging and well structured courses, Brilliant has taught me mathematical concepts that i previously struggled to understand. I now feel confident approaching both technical job interviews and real world problem solving situations." </p>
       </div>
     </div>
   );
